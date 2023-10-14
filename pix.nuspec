@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>flamegraph</id>
+    <version>1.0</version>
+    <iconUrl>https://www.brendangregg.com/FlameGraphs/cpu-mysql-crop-500.png</iconUrl>
+    <packageSourceUrl>https://github.com/DziubanMaciej/chocolatey-package-flamegraph</packageSourceUrl>
+    <releaseNotes>https://github.com/brendangregg/FlameGraph/releases/tag/v1.0</releaseNotes>
+    <title>Flamegraph</title>
+    <authors>Brendan Gregg</authors>
+    <projectUrl>https://www.brendangregg.com/flamegraphs.html</projectUrl>
+    <tags>flamegraph performance charts profiling</tags>
+    <summary>Stack trace visualizer </summary>
+    <description><![CDATA[
+
+Flame graphs are a visualization of hierarchical data, created to visualize stack traces of profiled software so that the most frequent code-paths to be identified quickly and accurately. They can be generated using my open source programs on github.com/brendangregg/FlameGraph, which create interactive SVGs. My colleague on the Netflix performance engineering team, Martin Spier, created an open source d3 version: d3-flame-graph.
+ ]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
